@@ -90,3 +90,30 @@ footer {
     width: 100%;
     font-size: 0.9rem;
 }
+.construction-container {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.excavadora {
+    display: inline-block;
+    margin-top: 20px;
+    animation: moverExcavadora 2s infinite alternate ease-in-out;
+}
+
+.excavadora img {
+    width: 120px;  /* Ajusta el tamaño */
+}
+
+@keyframes moverExcavadora {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(20px);
+    }
+}
+
