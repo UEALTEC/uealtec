@@ -101,7 +101,7 @@ footer {
 .construccion {
     display: inline-block;
     margin-top: 20px;
-    animation: moverExcavadora 2s infinite alternate ease-in-out;
+    animation: moverConstruccion 2s infinite alternate ease-in-out;
 }
 
 .construccion img {
