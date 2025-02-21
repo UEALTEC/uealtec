@@ -98,17 +98,17 @@ footer {
     color: white;
 }
 
-.excavadora {
+.construccion {
     display: inline-block;
     margin-top: 20px;
     animation: moverExcavadora 2s infinite alternate ease-in-out;
 }
 
-.excavadora img {
+.construccion img {
     width: 120px;  /* Ajusta el tamaño */
 }
 
-@keyframes moverExcavadora {
+@keyframes moverConstruccion {
     0% {
         transform: translateX(0);
     }
