@@ -1,3 +1,4 @@
+/* Reset general */
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +7,18 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #f8f9fa;
     color: black;
     text-align: center;
+    padding-bottom: 50px; /* Para evitar que el contenido choque con el footer */
 }
 
-
+/* Encabezado */
 header {
     background: #2b1055;
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    
 }
 
 header h1 {
@@ -48,12 +49,13 @@ nav ul li a:hover {
     color: yellow;
 }
 
+/* Sección principal */
 main {
     padding: 50px 20px;
 }
 
 .logo {
-    width: 200px;
+    width: 180px;
     margin-bottom: 20px;
     transition: transform 0.3s;
 }
@@ -62,12 +64,13 @@ main {
     transform: scale(1.1);
 }
 
-
+/* Galería de apps */
 .app-gallery {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .app-gallery img {
@@ -82,14 +85,7 @@ main {
     transform: scale(1.1);
 }
 
-footer {
-    background: #1e0638;
-    padding: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.9rem;
-}
+/* Sección en construcción */
 .construction-container {
     text-align: center;
     margin-top: 30px;
@@ -117,3 +113,11 @@ footer {
     }
 }
 
+/* Pie de página */
+footer {
+    background: #1e0638;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
