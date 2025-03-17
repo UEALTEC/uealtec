@@ -21,8 +21,8 @@ Uealtec es una empresa enfocada en ofrecer soluciones tecnológicas innovadoras 
 
 ## 📺 Nuestras Aplicaciones
 Hemos desarrollado aplicaciones innovadoras que destacan en el mercado:
-1. **FootballPlus** - Juego de cartas de futbolistas con estrategia y azar.
-2. **Curso de Kotlin Interactivo** - Plataforma educativa para aprender Kotlin desde cero.
+1. **HorasTec** - App sobre calculos de costes, para realizar presupuestos.
+2. **FootballPlus** - Juego de preguntas sobre futbol.
 
 ## 🚀 Nuestra Misión
 Ayudar a emprendedores y empresas a potenciar sus negocios a través de la tecnología. Buscamos crear soluciones únicas y eficientes que aporten verdadero valor a nuestros clientes.
@@ -34,8 +34,8 @@ Somos un equipo de profesionales apasionados por la tecnología y la innovación
 ¿Necesitas una solución a medida para tu negocio?
 Escríbenos y hagamos realidad tu proyecto:
 - ✉ Correo: uealtec@gmail.com
-- 👉 [Visita nuestra web](https://uealtec.github.io)
-- 🐦 Síguenos en redes sociales
+- 👉 [Visita nuestra web](https://jorioles.github.io/uealtec/index.html)
+- 🐦 Síguenos en redes sociales(https://github.com/jorioles/uealtec)
 
 ---
 **Uealtec** - Transformando ideas en soluciones tecnológicas 🚀
