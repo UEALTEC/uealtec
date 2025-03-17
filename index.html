@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>uealtec - Innovación en Tecnología</title>
+    <title>UEALTEC - Innovación en Tecnología</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
     </header>
 
     <main>
-        <img src="uealtec.png" alt="Logo uealtec" class="logo">
+        <img src="uealtec.png" alt="Logo UEALTEC" class="logo">
         
         <h2>Bienvenido a UEALTEC</h2>
         <p>Ofrecemos soluciones en desarrollo de software, diseño gráfico y mecánica industrial.</p>
@@ -32,16 +32,21 @@
             <img src="img/app3.png" alt="App 3">
         </div>
     </main>
-        <div class="construction-container">
+
+    <div class="construction-container">
         <p class="construction-text">🚧 En construcción... 🚜</p>
         <div class="construccion">
             <img src="construccion.png" alt="Excavadora trabajando">
+        </div>
     </div>
-</div>
 
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> uealtec. Todos los derechos reservados.</p>
+        <p>&copy; <span id="year"></span> UEALTEC. Todos los derechos reservados.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
