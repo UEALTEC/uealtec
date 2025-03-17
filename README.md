@@ -35,7 +35,7 @@ Somos un equipo de profesionales apasionados por la tecnología y la innovación
 Escríbenos y hagamos realidad tu proyecto:
 - ✉ Correo: uealtec@gmail.com
 - 👉 [Visita nuestra web](https://uealtec.github.io/uealtec/index.html)
-- 🐦 Síguenos en redes sociales(https://github.com/uealtec/uealtec)
+- 🐦 Síguenos en redes sociales(https://github.com/uealtec)
 
 ---
 **UEALTEC** - Transformando ideas en soluciones tecnológicas 🚀
