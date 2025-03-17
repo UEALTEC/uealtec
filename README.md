@@ -34,9 +34,9 @@ Somos un equipo de profesionales apasionados por la tecnología y la innovación
 ¿Necesitas una solución a medida para tu negocio?
 Escríbenos y hagamos realidad tu proyecto:
 - ✉ Correo: uealtec@gmail.com
-- 👉 [Visita nuestra web](https://jorioles.github.io/uealtec/index.html)
-- 🐦 Síguenos en redes sociales(https://github.com/jorioles/uealtec)
+- 👉 [Visita nuestra web](https://uealtec.github.io/uealtec/index.html)
+- 🐦 Síguenos en redes sociales(https://github.com/uealtec/uealtec)
 
 ---
-**Uealtec** - Transformando ideas en soluciones tecnológicas 🚀
+**UEALTEC** - Transformando ideas en soluciones tecnológicas 🚀
 
