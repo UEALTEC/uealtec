@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEALTEC - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>UEALTEC</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="img/uealtec.png" alt="Logo UEALTEC" class="logo">
+        
+        <h2>Nuestro Portfolio</h2>
+        <p>Explora nuestras aplicaciones y proyectos de ingeniería.</p>
+        
+        <h3>📱 Aplicaciones Desarrolladas</h3>
+        <div class="app-gallery">
+            <div class="app-card">
+                <img src="img/horastec.png" alt="HorasTec">
+                <h4>HorasTec</h4>
+                <p>Gestión de horas de trabajo y productividad.</p>
+            </div>
+            <div class="app-card">
+                <img src="img/futboleros.png" alt="Futboleros">
+                <h4>Futboleros</h4>
+                <p>Juego de cartas de futbolistas basado en estrategia y azar.</p>
+            </div>
+        </div>
+        
+        <h3>🏭 Proyectos de Ingeniería</h3>
+        <div class="engineering-list">
+            <div class="project-card">
+                <img src="img/proyecto1.png" alt="Proyecto 1">
+                <h4>Proyecto 1: Maquinaria Industrial</h4>
+                <p>Optimización de maquinaria industrial para mejorar eficiencia.</p>
+            </div>
+            <div class="project-card">
+                <img src="img/proyecto2.png" alt="Proyecto 2">
+                <h4>Proyecto 2: Integración de Maquinaria</h4>
+                <p>Adaptación de maquinaria mecánica con software industrial.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> UEALTEC. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
