@@ -1,6 +1,6 @@
 # Uealtec - Innovación en Tecnología
 
-## ¡Bienvenido a Uealtec!
+## ¡Bienvenido a UEALTEC!
 Uealtec es una empresa enfocada en ofrecer soluciones tecnológicas innovadoras para negocios y emprendimientos. Nos especializamos en el desarrollo de software, diseño gráfico y proyectos de ingeniería industrial.
 
 ## 🌟 Nuestros Servicios
