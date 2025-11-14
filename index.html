@@ -1,110 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UEALTEC - Innovación en Tecnología</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <style>
-        .app-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-        .app-gallery .card {
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            overflow: hidden;
-            width: 220px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.2s ease-in-out;
-        }
-        .app-gallery .card:hover {
-            transform: scale(1.05);
-        }
-        .app-gallery img {
-            width: 100%;
-            height: auto;
-        }
-        .card-title {
-            font-weight: bold;
-            padding: 10px;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-        .card-link {
-            display: block;
-            text-align: center;
-            padding: 8px;
-            background-color: #004080;
-            color: white;
-            text-decoration: none;
-        }
-        .card-link:hover {
-            background-color: #0066cc;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UEALTEC – Proyectos y apps</title>
+  <meta name="description" content="UEALTEC: desarrollo de apps Android con Kotlin, análisis de datos y proyectos de ingeniería. Descubre nuestros proyectos y prueba Futboleros." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/futboleros/icon-1024.png">
 </head>
 <body>
-
-    <header>
-        <h1>UEALTEC</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <img src="img/uealtec.png" alt="Logo UEALTEC" class="logo">
-
-        <h2>Bienvenido a UEALTEC</h2>
-        <p>Ofrecemos soluciones en desarrollo de software, diseño gráfico y mecánica industrial.</p>
-
-        <div class="app-gallery">
-            <div class="card">
-                <img src="img/app1.png" alt="App 1">
-                <div class="card-title">HorasTec</div>
-                <a href="#" class="card-link">Ver proyecto</a>
-            </div>
-            <div class="card">
-                <img src="img/app2.png" alt="App 2">
-                <div class="card-title">Futboleros</div>
-                <a href="#" class="card-link">Ver proyecto</a>
-            </div>
-            <div class="card">
-                <img src="analisis_averias.png" alt="Análisis Averías">
-                <div class="card-title">Análisis de Averías</div>
-                <a href="#" class="card-link">Ver proyecto</a>
-            </div>
-            <div class="card">
-                <img src="consumostunel.png" alt="Consumo Eléctrico">
-                <div class="card-title">Dashboard de Consumo</div>
-                <a href="#" class="card-link">Ver proyecto</a>
-            </div>
-        </div>
-    </main>
-
-    <div class="construction-container">
-        <p class="construction-text">🚧 En construcción... 👼</p>
-        <div class="construccion">
-            <img src="img/construccion.png" alt="Excavadora trabajando">
-        </div>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src="assets/futboleros/icon-1024.png" alt="UEALTEC">
+      <b>UEALTEC</b>
     </div>
+    <nav style="display:flex;gap:14px;align-items:center">
+      <a class="button" href="futboleros.html">Futboleros</a>
+    </nav>
+  </div>
+</header>
 
-    <footer>
-        <p>&copy; <span id="year"></span> UEALTEC. Todos los derechos reservados.</p>
-    </footer>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">🚀 Portafolio</span>
+      <h1 class="title">Soluciones en <span style="color:var(--accent)">apps Android</span> y proyectos <span style="color:#A78BFA">IoT</span>.</h1>
+      <p class="subtitle">Creamos experiencias rápidas y útiles. Destacado: <b>Futboleros</b>, una app gratis con quiz y minijuegos de fútbol.</p>
+      <div class="cta">
+        <a class="btn primary" href="futboleros.html">Ver Futboleros</a>
+        <a class="btn" href="#proyectos">Ver proyectos</a>
+      </div>
+    </div>
+    <div class="mock">
+      <img src="assets/futboleros/shot-1.jpg" alt="Futboleros – Duelo de Toques">
+    </div>
+  </div>
+</section>
 
-    <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+<section id="proyectos">
+  <div class="container">
+    <h2 class="section-title">Proyectos destacados</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="assets/futboleros/shot-1.jpg" alt="Futboleros">
+        <h3>Futboleros</h3>
+        <p>Quiz y minijuegos de fútbol. Ranking semanal y retos.</p>
+        <span class="chip">Android · Kotlin</span>
+        <a class="link" href="futboleros.html">Ver proyecto →</a>
+      </article>
+      <article class="card">
+        <img src="assets/futboleros/shot-2.jpg" alt="Análisis de Averías (demo)">
+        <h3>Análisis de Averías</h3>
+        <p>Dashboard interactivo para entender fallos y mejorar mantenimiento.</p>
+        <span class="chip">Data · Visualización</span>
+        <a class="link" href="#">Ver proyecto →</a>
+      </article>
+      <article class="card">
+        <img src="assets/futboleros/shot-3.jpg" alt="Dashboard de Consumo (demo)">
+        <h3>Dashboard de Consumo</h3>
+        <p>Monitorización de consumo eléctrico para industria.</p>
+        <span class="chip">IoT · Analytics</span>
+        <a class="link" href="#">Ver proyecto →</a>
+      </article>
+      <article class="card">
+        <img src="assets/futboleros/shot-4.jpg" alt="HorasTec (demo)">
+        <h3>HorasTec</h3>
+        <p>Cálculo de costes de intervención técnica.</p>
+        <span class="chip">Android</span>
+        <a class="link" href="#">Ver proyecto →</a>
+      </article>
+    </div>
+  </div>
+</section>
 
+<footer>
+  <div class="container foot-grid">
+    <div>© 2025 UEALTEC</div>
+    <div class="tiny">Contacto: <a href="mailto:uealtec@gmail.com">uealtec@gmail.com</a></div>
+  </div>
+</footer>
 </body>
 </html>
