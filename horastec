@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HorasTec – Cálculo de costes técnicos | UEALTEC</title>
+  <meta name="description" content="App interna para calcular costes de intervención técnica: desplazamientos, mano de obra, dietas y margen. Pensada para servicios de asistencia industrial." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/futboleros/icon-1024.png">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/futboleros/icon-1024.png" alt="UEALTEC">
+      <b>UEALTEC</b>
+    </a>
+    <nav style="display:flex;gap:14px;align-items:center">
+      <a class="button" href="futboleros.html">Futboleros</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Android · Tooling interno</span>
+      <h1 class="title">Calculadora de costes para servicios técnicos.</h1>
+      <p class="subtitle">HorasTec ayuda a definir precios de intervención teniendo en cuenta tiempo de desplazamiento, horas de trabajo, gastos y margen objetivo.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:uealtec@gmail.com?subject=Proyecto%20HorasTec">Pedir información</a>
+        <a class="btn" href="#detalles">Ver detalles</a>
+      </div>
+    </div>
+    <div class="mock">
+      <img src="assets/futboleros/shot-4.jpg" alt="App HorasTec">
+    </div>
+  </div>
+</section>
+
+<section id="detalles">
+  <div class="container">
+    <h2 class="section-title">Cómo funciona HorasTec</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>⏱ Tiempo total</h3>
+        <p>Introduce horas de viaje, tiempo de trabajo y posibles esperas para obtener el tiempo total imputable al servicio.</p>
+      </article>
+      <article class="card">
+        <h3>💰 Coste y precio</h3>
+        <p>Calcula el coste interno y propone un precio de venta con margen configurable.</p>
+      </article>
+      <article class="card">
+        <h3>📄 Resumen para cliente</h3>
+        <p>Muestra un resumen claro de conceptos para poder adjuntarlo a un presupuesto o factura.</p>
+      </article>
+      <article class="card">
+        <h3>🔧 Adaptable a otras empresas</h3>
+        <p>Se puede ajustar a otros servicios técnicos cambiando tarifas, variables y textos.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot-grid">
+    <div>© 2025 UEALTEC</div>
+    <div class="tiny">Contacto: <a href="mailto:uealtec@gmail.com">uealtec@gmail.com</a></div>
+  </div>
+</footer>
+</body>
+</html>
