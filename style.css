@@ -22,7 +22,8 @@ img{max-width:100%;display:block}
 /* Header */
 header{position:sticky;top:0;backdrop-filter:saturate(140%) blur(10px);background:rgba(36, 10, 66, 0.6);border-bottom:1px solid var(--border);z-index:40}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-.brand{display:flex;gap:12px;align-items:center}
+.brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit;cursor:pointer;}
+.brand:hover{opacity:.9}
 .brand img{width:56px;height:56px;border-radius:14px}
 .brand b{letter-spacing:.4px}
 .nav a.button{padding:10px 16px;border-radius:12px;background:var(--primary);color:#08130D;font-weight:800;box-shadow:0 4px 16px rgba(34,197,94,.35)}
