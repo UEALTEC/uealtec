@@ -51,6 +51,7 @@ section{padding:48px 0}
 .card p{color:var(--muted);margin:0}
 .card .chip{background:rgba(255,255,255,.06);border:10px solid var(--border);padding:6px 10px;border-radius:999px;color:#DDE6FF;font-size:.85rem;width:max-content}
 .card .link{margin-top:auto;display:inline-flex;gap:8px;align-items:center;color:#9BD7FF}
+.card .btn{margin-top:auto}
 
 /* Gallery */
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
@@ -93,13 +94,39 @@ footer{padding:36px 0;border-top:1px solid var(--border);color:#B8C2DE}
     max-width: none;              /* que mande el porcentaje en móvil */
   }
 }
+
 .brand img{
   width: 80px;   /* sube/baja: 56–72px suele ir perfecto */
   height: 80px;
 }
+
+/* Header + logo en móvil */
 @media (max-width: 640px){
   .brand img{ width: 52px; height: 52px; }
+
+  .nav{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:10px 0;
+    gap:10px;
+  }
+
+  .nav-menu{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;
+  }
+
+  .nav-menu .button{
+    width:100%;
+    justify-content:center;
+    text-align:center;
+    padding:8px 10px;
+    font-size:.8rem;
+  }
 }
+
 /* === Esquinas redondeadas para imágenes del cuerpo === */
 /* 1) Ajusta aquí el radio global (px o %) */
 :root{
