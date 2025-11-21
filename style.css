@@ -22,6 +22,7 @@ img{max-width:100%;display:block}
 /* Header */
 header{position:sticky;top:0;backdrop-filter:saturate(140%) blur(10px);background:rgba(36, 10, 66, 0.6);border-bottom:1px solid var(--border);z-index:40}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.nav-menu{display:flex;gap:14px;align-items:center;flex-wrap:wrap;}
 .brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit;cursor:pointer;}
 .brand:hover{opacity:.9}
 .brand img{width:56px;height:56px;border-radius:14px}
